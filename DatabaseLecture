@@ -1,0 +1,24 @@
+Setting up Sample DB
+
+don't have enough time to go in depth to setting up your own server, but highly recommended
+check out MariaDB 100% compatible w mySQL and totally free
+
+1. SHOW DATABASES;
+2. use ymir_employees;
+3. show tables;
+4. select * from employees;
+iff you want the count of your record search:
+select count(emp_no) from employees;
+its important for every entry in a table to be unique, typically done by an id in this db its by employee number
+
+normalization - taking tables
+duplication in data is also bad
+focused lil tables simplify
+can connect those tables together
+
+
+
+MySQL Console Setup w/ IntelliJ
+IDE - INTEGRATED DEVELOPMENTAL ENVIRONMENT
+
+Database tab > + sign > Data Source > MariaDB >
