@@ -1,6 +1,6 @@
 USE ymir_employees;
 
-#smaller tables are more efficient and easier to read, so sometimes we need to bring info together from different tables, and indexes/indicies are how we do this
+#smaller tables are more efficient and easier to read, so sometimes we need to bring info together from different tables, and indexes/indicies are PART OF how we do this
 
     #We use indexes on almost every table we create. At the very least, we are going to set a primary key, or a unique identifier for each row, much like a row number in a spreadsheet. This will give us the ability to easily reference the data in that row, and MySQL will make sure there are never duplicates.
 
