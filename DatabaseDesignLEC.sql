@@ -154,3 +154,12 @@ INNER  JOIN topics t on qt.topic_id = t.id;
 
 ######the foreign key always goes on the MANY side of the table
 
+
+
+#database naming conventions
+#takes should be pluralized: ads
+#primary key should just be called: id
+#lowercase typically and underscores for spaces
+#junction table should be the singular form of each table combined w an underscore: ad_category
+#junction table foreign ids are just the other table underscore id: category_id, ad_id
+
